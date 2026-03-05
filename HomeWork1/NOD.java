@@ -7,7 +7,7 @@ public class NOD {
         int del2 = mysc.nextInt();
         System.out.println(gcd(del1, del2));
     }
-
+    //
     public static int gcd(int a, int b) {
         if (a < b) {
             return gcd(b, a);
